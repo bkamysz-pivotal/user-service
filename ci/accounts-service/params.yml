@@ -1,0 +1,29 @@
+---
+git-uri: https://github.com/bkamysz-pivotal/user-service.git
+git-branch: development
+#user-version-git-uri: git@github.com:bkamysz-pivotal/user-service.git
+#user-version-git-branch: version
+s3-endpoint: s3.amazonaws.com
+s3-access-key-id: SAMPLE786ASFD67AFT68
+s3-secret-access-key: SAMPLE976a9gefa79w6egfa79w6efga97we6fgaw
+s3-bucket-milestone: pivotal-bank-release-candidates
+s3-bucket-release: pivotal-bank-release
+cf-api-uri: api.cfapps.haas-46.pez.pivotal.io
+cf-skip-ssl: true
+cf-username: bkamysz
+cf-password: paasword!
+cf-org: bkamysz
+cf-space: dev
+cf-config-server-uri: https://github.com/bkamysz-pivotal/cf-SpringBootTrader-config
+cf-config-server-label: master
+cf-db-service: p-mysql
+cf-db-service-plan: pre-existing-plan
+cf-db-service-name: traderdb
+#cf-db-service: cleardb spark traderdb
+cf-user-service-name: user-service
+cf-user-service-host: user-service
+cf-user-service-services: traderdb, discovery-service, circuit-breaker-dashboard, config-server
+git-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  ...
+  -----END RSA PRIVATE KEY-----
