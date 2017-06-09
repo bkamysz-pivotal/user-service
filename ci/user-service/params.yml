@@ -1,6 +1,6 @@
 ---
 git-uri: https://github.com/bkamysz-pivotal/user-service.git
-git-branch: development
+git-branch: master
 #user-version-git-uri: git@github.com:bkamysz-pivotal/user-service.git
 #user-version-git-branch: version
 s3-endpoint: s3.amazonaws.com
