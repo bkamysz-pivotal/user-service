@@ -66,6 +66,7 @@ jobs:
       manifest: user-service/manifest.yml
       environment_variables:
         TRUST_CERTS: {{cf-api-uri}}
+        CF_TARGET: {{cf-target-url}}
 
 - name: prepare-cf-env
   public: true

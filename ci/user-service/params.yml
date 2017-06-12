@@ -9,6 +9,7 @@ s3-secret-access-key: SAMPLE976a9gefa79w6egfa79w6efga97we6fgaw
 s3-bucket-milestone: pivotal-bank-release-candidates
 s3-bucket-release: pivotal-bank-release
 cf-api-uri: api.cfapps.haas-46.pez.pivotal.io
+cf-target-url: https://api.cfapps.haas-46.pez.pivotal.io
 cf-skip-ssl: true
 cf-username: bkamysz
 cf-password: paasword!
